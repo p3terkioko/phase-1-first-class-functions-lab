@@ -5,7 +5,7 @@ let returnLastTwoDrivers = (arr) => arr.slice(arr.length-2)
 
 let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
-let createFareMultiplier = (mult) => ((fare) => fare * mult)
+let createFareMultiplier = (multiply) => ((fare) => fare * multiply)
 
 const fareDoubler = (fare) => createFareMultiplier(2)(fare);
 
